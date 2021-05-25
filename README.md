@@ -9,7 +9,7 @@ In order to run CATBOSS, you will need the following dependencies:
 2. The MATLAB wrapper for earth mover's distance calculation (https://github.com/garydoranjr/pyemd) [2,3]
 
 # How to run:
-1. Prepare the dataset to be analyzed in space-delimited format, with the first column being time, and the remaining columns being the variables of the dataset.
+1. Prepare the dataset to be analyzed in space-delimited format, with the first column being time, and the remaining columns being the variables of the dataset. You may also use sample data provided here for your convenience.
 2. Run CATBOSS_detectChanges.py <input_file> --lam <lambda value> --alpha <alpha value>
 (Optional: Import the change probability matrix and data files into your MATLAB workspace and run CATBOSS_slopeAnalysis.m to identify sloped segments)
 3. Import the change probability matrix and data files into your MATLAB workspace and run CATBOSS_distanceMatrix.m
